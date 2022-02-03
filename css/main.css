@@ -13,3 +13,20 @@ body {
 .css-intro-images {
   display: flex;
 }
+
+.css-intro-button {
+  background-color: blue;
+  padding: 6px 12px;
+  border-radius: 6px;
+  color: #fff;
+  text-decoration: none;
+}
+
+.css-intro-button:hover {
+  background-color: #110483;
+}
+
+/* art button focus interaction */
+.css-intro-button:focus {
+  border: 1px solid #110483;
+}
